@@ -48,13 +48,13 @@ export default function CertificationsPage() {
                     className="flex h-full flex-col items-center p-6 text-center sm:items-start sm:text-left"
                   >
                     {cert.logoSrc ? (
-                      <div className="relative mx-auto h-36 w-32 sm:mx-0">
+                      <div className="relative mx-auto size-36 sm:mx-0">
                         <Image
                           src={cert.logoSrc}
                           alt={cert.logoAlt ?? `${cert.name} badge`}
                           fill
                           className="object-contain"
-                          sizes="128px"
+                          sizes="144px"
                         />
                       </div>
                     ) : (

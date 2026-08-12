@@ -24,19 +24,19 @@ export const completedCertifications: Certification[] = [
   {
     name: "AWS Certified Cloud Practitioner",
     issuer: "Amazon Web Services",
-    logoSrc: "/images/certifications/aws-cloud-practitioner.svg",
+    logoSrc: "/images/certifications/aws-cloud-practitioner.png",
     logoAlt: "AWS Certified Cloud Practitioner badge",
   },
   {
     name: "AWS Certified Solutions Architect – Associate",
     issuer: "Amazon Web Services",
-    logoSrc: "/images/certifications/aws-solutions-architect-associate.svg",
+    logoSrc: "/images/certifications/aws-solutions-architect-associate.png",
     logoAlt: "AWS Certified Solutions Architect Associate badge",
   },
   {
     name: "AWS Certified Developer – Associate",
     issuer: "Amazon Web Services",
-    logoSrc: "/images/certifications/aws-developer-associate.svg",
+    logoSrc: "/images/certifications/aws-developer-associate.png",
     logoAlt: "AWS Certified Developer Associate badge",
   },
 ];
